@@ -1,0 +1,15 @@
+.dashboard_container {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+}
+
+@media screen and (max-width: 800px) {
+  .dashboard_container {
+    grid-template-columns: 1fr;
+    box-sizing: border-box;
+  }
+
+  .dashboard_container * {
+    box-sizing: border-box;
+  }
+}
